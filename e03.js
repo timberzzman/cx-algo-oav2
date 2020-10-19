@@ -1,5 +1,5 @@
 function selectionSort(array) {
-    let result = array
+    let result = [array]
     let n = result.length
     for (let i = 0; i <= n - 2; i++) {
         let min = i
